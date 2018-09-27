@@ -1,0 +1,166 @@
+<!-- 
+    
+
+    
+ -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Assigment 1-Hamilton's Musical</title>
+    <link rel="stylesheet" href="./style.css" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://hamiltonexhibition.com/wp-content/themes/hamexhibit/favicons/favicon-32x32.png">
+</head>
+
+<body>
+    <h1>Hamilton HTML/CSS interpretation by Pablo Turati</h1>
+    <section>
+        <img class="mainLogo" src="./images/logo.png" alt="Hamilton Logo" width="200">
+        <table>
+            <caption>Hamilton's Musical Properties</caption>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Characters</th>
+                    <th>Cast</th>
+                    <th>Productions</th>
+                    <th>Honors & Awards</th>
+                    <th>Best Songs</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img class="characters" src="./images/Hamilton.jpg" alt="A. Hamilton"></td>
+                    <td>Alexander Hamilton</td>
+                    <td>Lin-Manuel Miranda</td>
+                    <td>2015 Off-Broadway</td>
+                    <td>Pulitzer Prize</td>
+                    <td>Intro Alexander Hamilton</td>
+                </tr>
+                <tr>
+                    <td><img class="characters" src="./images/Burr.jpg" alt="A. Hamilton"></td>
+                    <td>Aaron Burr (Sir)</td>
+                    <td>Leslie Odom, Jr.</td>
+                    <td>2015 Broadway</td>
+                    <td>Billboard Music</td>
+                    <td>My Shot</td>
+                </tr>
+                <tr>
+                    <td><img class="characters" src="./images/Eliza.jpg" alt="A. Hamilton"></td>
+                    <td>Eliza Schuyler</td>
+                    <td>Phillipa Soo</td>
+                    <td>2016 Chicago</td>
+                    <td>Tony Awards</td>
+                    <td>Burn</td>
+                </tr>
+                <tr>
+                    <td><img class="characters" src="./images/Washington.png" alt="A. Hamilton"></td>
+                    <td>George Washington</td>
+                    <td>Jonathan Groff</td>
+                    <td>2017 First U.S. Tour</td>
+                    <td>Grammy Awards</td>
+                    <td>One Last Time</td>
+                </tr>
+                <tr>
+                    <td><img class="characters" src="./images/Angelica.jpg" alt="A. Hamilton"></td>
+                    <td>Angelica Schuyler</td>
+                    <td>Daveed Diggs</td>
+                    <td>2017 West End</td>
+                    <td>Kennedy Center Honors</td>
+                    <td>Who Lives, who dies, who tells your story</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan='2'>
+                        <blockquote cite="https://www.goodreads.com/author/quotes/5725556.Lin_Manuel_Miranda">"You
+                            have no control. Who lives, who dies, who tells your story."</blockquote>
+
+                    </td>
+                    <td colspan='4'>
+                        <blockquote cite="https://www.goodreads.com/author/quotes/5725556.Lin_Manuel_Miranda">
+                            "“Death doesn't discriminate between the sinners and the saints, it takes and it takes and
+                            it takes, and we keep living anyway....” "</blockquote>
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+    <section>
+        <ul>
+            <li><img src="./images/big/hamiltonBig.jpg" alt="Hamilton" width="350"></li>
+            <li><img src="./images/big/burrBig.jpg" alt="Burr" width="350"></li>
+            <li><img src="./images/big/angelicaBig.jpg" alt="Angelica" width="350"></li>
+            <li><img src="./images/big/georgeBig.jpg" alt="Washington" width="350"></li>
+            <li><img src="./images/big/lafayetteBig.jpg" alt="Lafayette" width="350"></li>
+            <li><img src="./images/big/laurensBig.jpg" alt="Laurens" width="350"></li>
+        </ul>
+    </section>
+    <section>
+        <div class="strikeMaterial">
+            <p>The divs below this (the blue and pink ones) are a HW requirement and they are SUPER UGLY <br> I would
+                protest about the color
+                restrictions of this assigment, since they
+                promote bad
+                taste, <br>
+                but <i class="fas fa-music"></i> "the art of the compromise" <i class="fas fa-music"></i>
+            </p>
+            <img src="./images/compromise.gif" alt="compromise" width="200" />
+        </div>
+        <div class="outer-content">
+            <div class="inner-content">
+                <blockquote><i class="fas fa-music"></i><br>I have the honor to be Your Obedient Servant
+                    <br>
+                    [HAMILTON]
+                    A dot Ham
+                    <br>
+                    [BURR]
+                    A dot Burr
+                </blockquote>
+            </div>
+        </div>
+    </section>
+    <section class="formSection">
+        <form action="http://classes.engr.oregonstate.edu/eecs/winter2015/cs290-400/tools/class-content/form_tests/check_request.php">
+            <!-- action="http://classes.engr.oregonstate.edu/eecs/winter2015/cs290-400/tools/class-content/form_tests/check_request.php"
+            method="post" -->
+            <h3>Form</h3>
+            <label for="method"> Choose your duel weapon:
+                <select id="sendMethod" name="method">
+                    <option value="post">POST</option>
+                    <option value="get">GET</option>
+                </select>
+            </label>
+            <input id="donate" name="text_input" type="text" placeholder="Write like 'You're Running out of time'">
+            <input id="topMessage" name="numerical_input" type="number" placeholder="10 duel commandments (numbers only)">
+            <input name="password_input" type="password" placeholder="Tell me your best kept secret (Reynolds pamphlet)">
+            <div class="radioGroup">
+                <input type="radio" name="candy" value="Snickers">Arron's Snickers
+                <input type="radio" name="candy" value="Skittles">George's Skittles
+                <input type="radio" name="candy" value="Mentos">Alex's Mentos
+            </div>
+            <input type="submit" value="Ten paces! Fire!">
+        </form>
+    </section>
+    <script>
+        window.onload = function () {
+            setMethod();
+        };
+
+        document.getElementById("sendMethod").addEventListener("change", setMethod);
+
+        function setMethod() {
+            var sendMethod = document.getElementById("sendMethod").value;
+            document.getElementsByTagName("form")[0].setAttribute("method", sendMethod);
+        }
+    </script>
+</body>
+
+</html>
